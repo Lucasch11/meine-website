@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moonlight RP | VC🎙🇩🇪</title>
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#ff4dd8; /* Neon-Lila Hintergrund */
+    color:#fff;
+    text-align:center;
+    padding:40px;
+}
+
+header{
+    font-size:42px;
+    font-weight:bold;
+    color:#000; /* Schwarz für besseren Kontrast */
+}
+
+.btn{
+    display:inline-block;
+    margin:20px;
+    padding:12px 20px;
+    background:#fff;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.card{
+    max-width:700px;
+    margin:20px auto;
+    padding:20px;
+    background:#222;
+    border-radius:10px;
+}
+
+h2{
+    color:#fff;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+ul li{
+    padding:6px 0;
+    font-size:18px;
+}
+
+.role{
+    color:#fff;
+    font-weight:bold;
+    margin-top:15px;
+}
+</style>
+</head>
+<body>
+
+<header>Moonlight  RP | VC🎙🇩🇪</header>
+<p>Willkommen auf unserem Roleplay-Server!</p>
+
+<a class="btn" href="https://discord.gg/eJPByX9bFk" target="_blank">Discord beitreten</a>
+
+<div class="card">
+<h2>Features</h2>
+<p>Fraktionen, Fahrzeuge, Wirtschaftssystem und spannende Events.</p>
+</div>
+
+<div class="card">
+<h2>Team</h2>
+
+<p class="role">Founder</p>
+<ul>
+<li>Jaiden</li>
+<li>Flei</li>
+<li>Leyscery</li>
+</ul>
+
+<p class="role">Inhaber</p>
+<ul>
+<li><Jarno/li>
+<li></li>
+</ul>
+
+<p class="role">Stv Inhaber</p>
+<ul>
+<li>Finn</li>
+<li>Zeus</li>
+</ul>
+
+<p class="role">Owner </p>
+<ul>
+<li></li>
+<li></li>
+</ul>
+<p class="role">Stv Owner</p>
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+</div>
+
+</body>
+</html>
