@@ -5,45 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moonlight RP | VC🎙🇩🇪</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #ff4dd8; /* Neon-Lila Hintergrund */
-      color: #fff;
-      text-align: center;
-      padding: 40px;
-      margin: 0;
+    :root {
+      --bg-deep: #07030f;
+      --bg-purple: #22042f;
+      --neon: #ff4ef7;
+      --neon-2: #b517ff;
+      --text: #f7ebff;
+      --card: rgba(20, 10, 28, 0.8);
+      --button: #ffffff;
+      --button-text: #090909;
     }
 
-    header {
-      font-size: 42px;
-      font-weight: bold;
-      color: #000; /* Schwarz für besseren Kontrast */
-      margin-bottom: 10px;
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background:
+        radial-gradient(circle at center, rgba(168, 48, 255, 0.32), transparent 35%),
+        radial-gradient(circle at top, rgba(255, 80, 220, 0.18), transparent 28%),
+        linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-purple) 100%);
+      color: var(--text);
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      max-width: 900px;
+      margin: 0 auto 30px;
+      padding: 25px 15px 0;
+    }
+
+    .logo {
+      margin: 0;
+      font-size: clamp(3rem, 9vw, 8.5rem);
+      line-height: 0.9;
+      letter-spacing: 2px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #f6d8ff;
+      text-shadow:
+        0 0 6px rgba(255, 150, 255, 0.9),
+        0 0 18px rgba(255, 78, 247, 0.9),
+        0 0 30px rgba(181, 23, 255, 0.9),
+        0 0 42px rgba(181, 23, 255, 0.75),
+        0 0 62px rgba(181, 23, 255, 0.5);
+      filter: drop-shadow(0 0 12px rgba(255, 78, 247, 0.6));
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      color: #f5d9ff;
+      opacity: 0.9;
     }
 
     .btn {
       display: inline-block;
-      margin: 20px;
-      padding: 12px 20px;
-      background: #fff;
-      color: #000;
+      margin: 18px 0 12px;
+      padding: 14px 26px;
+      background: var(--button);
+      color: var(--button-text);
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 12px;
       font-weight: bold;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
     }
 
     .card {
       max-width: 700px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #222;
-      border-radius: 10px;
-      box-sizing: border-box;
+      margin: 24px auto;
+      padding: 22px 18px;
+      background: var(--card);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
     }
 
     h2 {
       color: #fff;
       margin-top: 0;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.6;
     }
 
     ul {
@@ -54,19 +103,25 @@
 
     ul li {
       padding: 6px 0;
-      font-size: 18px;
+      font-size: 1.1rem;
     }
 
     .role {
-      color: #fff;
+      color: var(--text);
       font-weight: bold;
-      margin-top: 15px;
+      margin-top: 18px;
       margin-bottom: 10px;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
     }
   </style>
 </head>
 <body>
-  <header>Moonlight RP | VC🎙🇩🇪</header>
+  <div class="hero">
+    <h1 class="logo">Moonlight</h1>
+    <div class="subtitle">RP | VC🎙🇩🇪</div>
+  </div>
+
   <p>Willkommen auf unserem Roleplay-Server!</p>
 
   <a class="btn" href="https://discord.gg/eJPByX9bFk" target="_blank" rel="noopener noreferrer">Discord beitreten</a>
